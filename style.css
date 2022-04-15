@@ -1,0 +1,339 @@
+body{
+  background-color: rgb(168, 160, 160);
+  font-family:'Montserrat', sans-serif;
+}
+
+
+.middle_nav {
+    width: 30%;
+    height: 5%;
+    width:100%;
+    background-color: rgb(80, 77, 77);
+}
+
+p{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.p1{
+    font-family:'Montserrat', sans-serif;
+    text-align: left;
+    color: white; 
+}
+.p2{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: white; 
+}
+
+.left_box{
+    width: 30%;
+    height: 49%;
+    float: left;
+    background-color: rgb(80, 77, 77);
+
+}
+
+.middle_box{
+    width: 30%;
+    height: 49%;
+    float: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(80, 77, 77);
+    position:absolute;
+    left:35%
+}
+
+
+
+nav{
+    width:100%;
+    background-color: rgb(80, 77, 77);
+    color: rgb(97, 93, 93);
+    height: 80px;
+    align-items: center;
+  }
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+header a{
+    list-style-type:none;
+    height:17%;
+}
+
+header ul li{
+    display: inline;
+}
+
+button{
+    font-family:'Montserrat', sans-serif;
+    background-color: rgb(80, 77, 77);
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 19px;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity:1;
+  }
+
+.logo{
+      width: 17%;
+  }
+
+.logo2{
+    width: 4%;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+  }
+
+header{
+    height:15%
+}
+.header1{
+    text-align: left;
+}
+
+.header2{
+    text-align: right;
+}
+
+.center{
+      text-align: center;
+  }
+
+
+
+.modal-contact {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-contact {
+    border-radius: 5%;
+    background-color: rgb(199, 192, 192);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(56, 56, 56);
+    width: 15%;
+    height: 50%;
+}
+
+.close-contact {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-contact,
+.close-contact:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    border-radius: 5%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 70%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+img {
+    width: 100%
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+  
+  }
+    
+
+  
+.stopka {
+
+    background-color: rgb(80, 77, 77);
+    color: white;
+    bottom: 0;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 40px;
+    position:absolute;
+
+}
+
+.stopka2 {
+
+    background-color: rgb(80, 77, 77);
+    color: white;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 40px;
+    position:absolute;
+    bottom:-225%;
+}
+
+.slider-container {
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+    background-color: rgb(168, 160, 160);
+    overflow: hidden;
+    
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 33vh;
+    background: var(--clt-primary-9);
+    color: var(--clr-white);
+    display: grid;
+    place-items: center;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    background-color: rgb(168, 160, 160);
+}
+
+.slide-img {
+  width: 100%;
+  border: rgb(80, 77, 77);
+  border-style: solid;
+}
+  
+.btn-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+}
+  
+.prevBtn, 
+.nextBtn {
+      background: rgb(168, 160, 160);
+      border-color: transparent;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 0 0.25rem;
+      letter-spacing: 1.5px;
+      border-radius: 50%;
+  }
+  
+.prevBtn:hover,
+.nextBtn:hover {
+      color: white;
+  }
+
+  .btn {
+    color: transparent;
+    padding: 20px 10px;
+    cursor: pointer;
+  }
+  
+  .pbtn:hover,
+  .nbtn:hover {
+    color: white;
+    background: transparent;
+  }
+
+@media screen and (min-width: 576px) {
+    .slider-container {
+        height: 33vh;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .slider-container {
+        height: 33vh;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .slider-container {
+        height: 33vh;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .section-center {
+      width: 40vw;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(168, 160, 160);
+    font-family:'Montserrat';
+    color: white;
+}
+
+
+.container {
+    margin-top: 55px;
+    height: 100px;
+    width: 100%;
+    border: 5px solid white;
+}
+
+.container1 {
+    margin-top: 55px;
+    height: 100px;
+    width: 100%;
+}
+
+.logowanie {
+    background-color: rgb(168, 160, 160);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    height: 600px;  
+}
+
+.rejestracja {
+    background-color: rgb(168, 160, 160);
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    height: 600px;
+    right: 0;
+    border-left: 5px solid white;
+  
+}
+
+
+.rejform {
+    margin-top: 35px;
+}
+
+.logform {
+    margin-top: 50%;
+}
+
+form {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 21px;  
+    margin: 0;
+}
+
+input {
+    font-family:'Montserrat';
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid hsla(0,0%, 100%)
+}
+
+.stopka {
+    background-color: rgb(80, 77, 77);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+nav{
+    width:100%;
+    height: 80px;
+    background-color: rgb(80, 77, 77);
+    align-items: center;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.modal-contact {
+    display: none;  
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content-contact {
+    border-radius: 5%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15%;
+    height: 50%;
+}
+
+.close-contact {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-contact,
+.close-contact:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    font-family:'Montserrat', sans-serif;
+    background-color: rgb(80, 77, 77);
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 19px;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity:1;
+  }
+
+.button-admin{
+    font-family:'Montserrat', sans-serif;
+    background-color: (80, 77, 77);
+    color: white;
+    padding: 10px 16px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    margin-top: 19px;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+button-admin:hover {
+    opacity:1;
+  }
+
+  header a{
+    list-style-type:none;
+    height:17%;
+}
+
+header ul li{
+    display: inline;
+}
+.logo{
+      width: 17%;
+      margin-left: 1%;
+      margin-top: 0.8%;
+  }
+
+.logo2{
+    width: 4%;
+    margin-right: 1%;
+    margin-top: 0.5%;
+}
+
+header{
+    height:15%
+}
+.header1{
+    text-align: left;
+}
+
+.header2{
+    text-align: right;
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+
+
